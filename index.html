@@ -1,0 +1,81 @@
+<!-- TYPEWRITER IS CURRENTLY BROKEN BECAUSE OF THE BODY "ONLOAD" FEATURE, WILL FIX SOON!  -->
+<!-- TYPEWRITER IS CURRENTLY BROKEN BECAUSE OF THE BODY "ONLOAD" FEATURE, WILL FIX SOON!  -->
+<!-- TYPEWRITER IS CURRENTLY BROKEN BECAUSE OF THE BODY "ONLOAD" FEATURE, WILL FIX SOON!  -->
+<!-- TYPEWRITER IS CURRENTLY BROKEN BECAUSE OF THE BODY "ONLOAD" FEATURE, WILL FIX SOON!  -->
+<!-- TYPEWRITER IS CURRENTLY BROKEN BECAUSE OF THE BODY "ONLOAD" FEATURE, WILL FIX SOON!  -->
+
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Anna's Portfolio!</title>
+    <meta name="description" content="Portfolio site">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/background.css">
+    <link rel="stylesheet" href="./css/text.css">
+    <link rel="stylesheet" href="./css/buttons.css">
+    <link rel="stylesheet" href="./css/particles.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/loader.css">
+
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/9105e9014d.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/typewriter.js"></script>
+
+    <script>
+        var myVar;
+
+        function loader() {
+            myVar = setTimeout(showPage, 3000);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("animation").style.display = "block";
+        }
+    </script>
+
+</head>
+
+<body onload="loader()">
+    <div id="loader"></div>
+    <div id="animation" class="animate-bottom">
+        <div id="class">
+            <div class="header">
+                <h1 class="text-center text-white headertext animation">Anna</h1>
+                <h5 class="text-center">
+                    <a class="typewrite">
+                        <span class="wrap">I'm a web designer.</span>
+                    </a>
+                </h5>
+                <div class="buttons">
+                    <button class="github">
+                    <i class="fa-sharp fa-solid fa-code"></i>
+    
+                    </i>
+                    <span class="button">GitHub</span>
+                </button>
+                    <button class="projects">
+                    <i class="fa-sharp fa-solid fa-file"></i>
+                        
+                    </i>
+                    <span class="button">Projects</span>
+                </button>
+                    <button class="aboutme">
+                    <i class="fa-sharp fa-solid fa-user"></i>
+                        
+                    </i>
+                    <span class="button">About Me</span>
+                </button>
+                </div>
+            </div>
+</body>
+
+</html>

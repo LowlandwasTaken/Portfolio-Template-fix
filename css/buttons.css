@@ -1,0 +1,33 @@
+button {
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-justify: auto;
+    letter-spacing: 3px;
+    cursor: crosshair;
+    margin-right: 15px;
+    padding-left: 40px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-right: 40px;
+    font-size: 25px;
+    transition: all .3s cubic-bezier(0.80, 1, 0.5, 1.9);
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+}
+
+button:hover::after {
+    color: white;
+    transition: 2s;
+}
+
+.buttons {
+    margin-left: 31%;
+}

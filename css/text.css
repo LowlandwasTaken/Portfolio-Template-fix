@@ -1,0 +1,72 @@
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/roboto.ttf);
+}
+
+@font-face {
+    font-family: nexa;
+    src: url(../fonts/nexa.ttf);
+}
+
+@font-face {
+    font-family: louis;
+    src: url(../fonts/louis.ttf);
+}
+
+.header {
+    margin-top: 350px;
+    text-transform: uppercase;
+    cursor: normal;
+}
+
+h1 {
+    font-size: 50px;
+    cursor: normal;
+    font-family: 'nexa', sans-serif;
+}
+
+.button {
+    font-family: 'roboto', sans-serif;
+}
+
+h5 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.wrap,
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: lowercase;
+    text-shadow: 5ch;
+    font-size: 30px;
+    text-rendering: auto;
+    text-decoration: none;
+    cursor: normal;
+    font-family: 'louis', sans-serif;
+}
+
+p {
+    color: white;
+    cursor: normal;
+    text-align: center;
+}
+
+* {
+    cursor: normal;
+}
+
+.animation {
+    font-size: 60px;
+    background-image: linear-gradient(to right, rgb(49, 28, 88), rgb(87, 31, 128), rgb(214, 70, 214), rgb(49, 28, 88));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animation 200s linear infinite;
+}
+
+@keyframes animation {
+    to {
+        background-position: 4500vh;
+    }
+}
